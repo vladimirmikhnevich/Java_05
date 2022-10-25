@@ -77,6 +77,8 @@ public class FizzBuzzTest {
         //Assert
         Assert.assertEquals(actualResult, expectedResult);
 
+//        int[] intArray = new int[20]; // combining both statements in one
+
         //youtube 3.15.46
     }
 }

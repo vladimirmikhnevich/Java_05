@@ -1,4 +1,5 @@
 public class FizzBuzz {
+    //        int[] intArray = new int[20]; // combining both statements in one
 
     public String[] fizzBuzz(int start, int end) {
         if (start <= end) {
