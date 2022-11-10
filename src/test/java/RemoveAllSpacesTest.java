@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class RemoveAllSpacesTest {
@@ -17,5 +18,7 @@ public class RemoveAllSpacesTest {
        String spaces1 = "p a     n   d a   ";
        String expectedResult = "panda";
        String actualResult = "p a     n   d a   ";
+
+       Assert.assertEquals(actualResult,expectedResult);
     }
 }

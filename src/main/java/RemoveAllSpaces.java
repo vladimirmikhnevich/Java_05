@@ -6,9 +6,9 @@ public class RemoveAllSpaces {
 //Test Data:
 // “    R e d     Ro ve    r Sc   h ool   “ →  “RedRoverSchool“
 //“p a     n   d a   “ → “panda”
-    public void removeAllSpaces(){
-        String spaces = "    R e d     Ro ve    r Sc   h ool   ";
-        System.out.println(spaces.trim());
-        System.out.println(spaces.replace("", ""));
-    }
+//    public void removeAllSpaces(){
+//        String spaces = "    R e d     Ro ve    r Sc   h ool   ";
+//        System.out.println(spaces.trim());
+//        System.out.println(spaces.replace("", ""));
+//    }
 }
